@@ -333,6 +333,44 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+          {/* Mel's Mountain Diner */}
+<div className="group bg-pink-950/40 backdrop-blur-md rounded-2xl overflow-hidden border border-pink-500/20 hover:border-pink-400/50 transition-all duration-300 hover:shadow-lg hover:shadow-pink-500/20">
+  <div className="h-2 bg-gradient-to-r from-pink-500 via-red-500 to-pink-600"></div>
+  <div className="p-6">
+    <h3 className="text-2xl font-bold text-white mb-3">
+      🍔 Mel&apos;s Mountain Diner
+    </h3>
+    <p className="text-pink-100 mb-4 leading-relaxed">
+      A groovy 60&apos;s retro-themed diner website featuring unique all-circular design with no squares. Interactive jukebox, neon sign effects, and chrome finishes capture the Happy Days era perfectly.
+    </p>
+    <div className="flex flex-wrap gap-2 mb-4">
+      <span className="px-3 py-1 bg-pink-500/30 text-pink-200 rounded-full text-sm">HTML5</span>
+      <span className="px-3 py-1 bg-orange-500/30 text-orange-200 rounded-full text-sm">CSS3</span>
+      <span className="px-3 py-1 bg-yellow-500/30 text-yellow-200 rounded-full text-sm">JavaScript</span>
+      <span className="px-3 py-1 bg-purple-500/30 text-purple-200 rounded-full text-sm">Retro Design</span>
+    </div>
+    <div className="flex gap-3 flex-wrap">
+      <a 
+        href="https://clfarr.github.io/mels-mountain-diner" 
+        target="_blank"
+        rel="noopener noreferrer"
+        className="px-4 py-2 bg-gradient-to-r from-pink-600 to-orange-500 text-white rounded-lg hover:shadow-lg transition-all duration-200 hover:shadow-pink-500/50"
+      >
+        Live Demo
+      </a>
+      <a 
+        href="https://github.com/clfarr/mels-mountain-diner" 
+        target="_blank"
+        rel="noopener noreferrer"
+        className="px-4 py-2 bg-gray-700 hover:bg-gray-600 text-white rounded-lg transition-all duration-200"
+      >
+        GitHub
+      </a>
+    </div>
+  </div>
+</div>
+
         </section>
 
         {/* Skills & Technologies */}
