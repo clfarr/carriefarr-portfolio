@@ -149,6 +149,7 @@ export default function Home() {
             <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent animate-fade-in">
               Featured Projects
             </h2>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Mel's Mountain Diner */}
 <div className="group bg-pink-950/40 backdrop-blur-md rounded-2xl overflow-hidden border border-pink-500/20 hover:border-pink-400/50 transition-all duration-300 hover:shadow-lg hover:shadow-pink-500/20">
   <div className="h-2 bg-gradient-to-r from-pink-500 via-red-500 to-pink-600"></div>
@@ -182,7 +183,9 @@ export default function Home() {
       >
         GitHub
       </a>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+    </div>
+  </div>
+</div>
               {/* Bricks Pizza Project */}
               <div className="group bg-purple-950/40 backdrop-blur-md rounded-2xl overflow-hidden border-2 border-purple-500/30 shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 hover:-translate-y-2 hover:border-purple-400/60 animate-fade-in-up">
                 <div className="h-2 bg-gradient-to-r from-orange-500 via-red-500 to-pink-500 shadow-glow-orange"></div>
