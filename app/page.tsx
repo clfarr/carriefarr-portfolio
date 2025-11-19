@@ -143,6 +143,8 @@ export default function Home() {
           </div>
         </section>
 
+  Perfect! I'll rewrite the entire Featured Projects section in that order. Here's the complete code to replace that section:
+
         {/* Featured Projects */}
         <section className="px-4 py-16">
           <div className="max-w-6xl mx-auto">
@@ -150,44 +152,120 @@ export default function Home() {
               Featured Projects
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Mel's Mountain Diner */}
-<div className="group bg-pink-950/40 backdrop-blur-md rounded-2xl overflow-hidden border border-pink-500/20 hover:border-pink-400/50 transition-all duration-300 hover:shadow-lg hover:shadow-pink-500/20">
-  <div className="h-2 bg-gradient-to-r from-pink-500 via-red-500 to-pink-600"></div>
-  <div className="p-6">
-    <h3 className="text-2xl font-bold text-white mb-3">
-      🍔 Mel&apos;s Mountain Diner
-    </h3>
-    <p className="text-pink-100 mb-4 leading-relaxed">
-      A groovy 60&apos;s retro-themed diner website featuring unique all-circular design with no squares. Interactive jukebox, neon sign effects, and chrome finishes capture the Happy Days era perfectly.
-    </p>
-    <div className="flex flex-wrap gap-2 mb-4">
-      <span className="px-3 py-1 bg-pink-500/30 text-pink-200 rounded-full text-sm">HTML5</span>
-      <span className="px-3 py-1 bg-orange-500/30 text-orange-200 rounded-full text-sm">CSS3</span>
-      <span className="px-3 py-1 bg-yellow-500/30 text-yellow-200 rounded-full text-sm">JavaScript</span>
-      <span className="px-3 py-1 bg-purple-500/30 text-purple-200 rounded-full text-sm">Retro Design</span>
-    </div>
-    <div className="flex gap-3 flex-wrap">
-      <a 
-        href="https://clfarr.github.io/mels-mountain-diner" 
-        target="_blank"
-        rel="noopener noreferrer"
-        className="px-4 py-2 bg-gradient-to-r from-pink-600 to-orange-500 text-white rounded-lg hover:shadow-lg transition-all duration-200 hover:shadow-pink-500/50"
-      >
-        Live Demo
-      </a>
-      <a 
-        href="https://github.com/clfarr/mels-mountain-diner" 
-        target="_blank"
-        rel="noopener noreferrer"
-        className="px-4 py-2 bg-gray-700 hover:bg-gray-600 text-white rounded-lg transition-all duration-200"
-      >
-        GitHub
-      </a>
-    </div>
-  </div>
-</div>
+              
+              {/* Redwood Creek Reserve */}
+              <div className="group bg-purple-950/40 backdrop-blur-md rounded-2xl overflow-hidden border-2 border-purple-500/30 shadow-2xl hover:shadow-emerald-500/50 transition-all duration-300 hover:-translate-y-2 hover:border-emerald-400/60 animate-fade-in-up">
+                <div className="h-2 bg-gradient-to-r from-emerald-500 via-green-600 to-lime-500 shadow-glow-green"></div>
+                <div className="p-6">
+                  <h3 className="text-2xl font-bold text-white mb-3">
+                    🌲 Redwood Creek Reserve
+                  </h3>
+                  <p className="text-cyan-100 mb-4 leading-relaxed">
+                    Professional cannabis cultivator website for Trinity County's Emerald Triangle, featuring strain catalog, cultivation process, and sustainable growing practices.
+                  </p>
+                  <div className="flex flex-wrap gap-2 mb-6">
+                    <span className="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/20 text-blue-300 border border-blue-400/30">Next.js</span>
+                    <span className="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/20 text-blue-300 border border-blue-400/30">TypeScript</span>
+                    <span className="px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-400/30">Sanity CMS</span>
+                    <span className="px-3 py-1 text-xs font-semibold rounded-full bg-cyan-500/20 text-cyan-300 border border-cyan-400/30">Tailwind</span>
+                  </div>
+                  <div className="flex gap-3">
+                    <a
+                      href="https://redwood-creek-reserve-zw5t.vercel.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex-1 text-center px-4 py-2 bg-gradient-to-r from-emerald-500 to-green-500 text-white rounded-lg hover:from-emerald-400 hover:to-green-400 transition-all font-semibold text-sm shadow-lg shadow-emerald-500/50"
+                    >
+                      Live Site
+                    </a>
+                    <a
+                      href="https://github.com/clfarr/redwood-creek-reserve"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex-1 text-center px-4 py-2 bg-purple-600/50 text-purple-100 rounded-lg hover:bg-purple-500/50 transition-all font-semibold text-sm border border-purple-400/30"
+                    >
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              {/* Luna & Clover */}
+              <div className="group bg-purple-950/40 backdrop-blur-md rounded-2xl overflow-hidden border-2 border-purple-500/30 shadow-2xl hover:shadow-rose-500/50 transition-all duration-300 hover:-translate-y-2 hover:border-rose-400/60 animate-fade-in-up animation-delay-200">
+                <div className="h-2 bg-gradient-to-r from-rose-400 via-pink-400 to-purple-400 shadow-glow-pink"></div>
+                <div className="p-6">
+                  <h3 className="text-2xl font-bold text-white mb-3">
+                    🌙 Luna & Clover - Boho Kids Boutique
+                  </h3>
+                  <p className="text-cyan-100 mb-4 leading-relaxed">
+                    Modern e-commerce website with animated UX, wishlist functionality, skeleton loading states, and fully responsive mobile design. Features page transitions, interactive hover effects, and localStorage persistence.
+                  </p>
+                  <div className="flex flex-wrap gap-2 mb-6">
+                    <span className="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/20 text-blue-300 border border-blue-400/30">React</span>
+                    <span className="px-3 py-1 text-xs font-semibold rounded-full bg-purple-500/20 text-purple-300 border border-purple-400/30">Vite</span>
+                    <span className="px-3 py-1 text-xs font-semibold rounded-full bg-cyan-500/20 text-cyan-300 border border-cyan-400/30">Tailwind</span>
+                    <span className="px-3 py-1 text-xs font-semibold rounded-full bg-pink-500/20 text-pink-300 border border-pink-400/30">Framer Motion</span>
+                  </div>
+                  <div className="flex gap-3">
+                    <a
+                      href="https://small-town-boutique.vercel.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex-1 text-center px-4 py-2 bg-gradient-to-r from-rose-500 to-purple-500 text-white rounded-lg hover:from-rose-400 hover:to-purple-400 transition-all font-semibold text-sm shadow-lg shadow-rose-500/50"
+                    >
+                      Live Demo
+                    </a>
+                    <a
+                      href="https://github.com/clfarr/small-town-boutique"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex-1 text-center px-4 py-2 bg-purple-600/50 text-purple-100 rounded-lg hover:bg-purple-500/50 transition-all font-semibold text-sm border border-purple-400/30"
+                    >
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              {/* Mel's Mountain Diner */}
+              <div className="group bg-pink-950/40 backdrop-blur-md rounded-2xl overflow-hidden border border-pink-500/20 hover:border-pink-400/50 transition-all duration-300 hover:shadow-lg hover:shadow-pink-500/20 animate-fade-in-up animation-delay-400">
+                <div className="h-2 bg-gradient-to-r from-pink-500 via-red-500 to-pink-600"></div>
+                <div className="p-6">
+                  <h3 className="text-2xl font-bold text-white mb-3">
+                    🍔 Mel&apos;s Mountain Diner
+                  </h3>
+                  <p className="text-pink-100 mb-4 leading-relaxed">
+                    A groovy 60&apos;s retro-themed diner website featuring unique all-circular design with no squares. Interactive jukebox, neon sign effects, and chrome finishes capture the Happy Days era perfectly.
+                  </p>
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    <span className="px-3 py-1 bg-pink-500/30 text-pink-200 rounded-full text-sm">HTML5</span>
+                    <span className="px-3 py-1 bg-orange-500/30 text-orange-200 rounded-full text-sm">CSS3</span>
+                    <span className="px-3 py-1 bg-yellow-500/30 text-yellow-200 rounded-full text-sm">JavaScript</span>
+                    <span className="px-3 py-1 bg-purple-500/30 text-purple-200 rounded-full text-sm">Retro Design</span>
+                  </div>
+                  <div className="flex gap-3 flex-wrap">
+                    <a 
+                      href="https://clfarr.github.io/mels-mountain-diner" 
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="px-4 py-2 bg-gradient-to-r from-pink-600 to-orange-500 text-white rounded-lg hover:shadow-lg transition-all duration-200 hover:shadow-pink-500/50"
+                    >
+                      Live Demo
+                    </a>
+                    <a 
+                      href="https://github.com/clfarr/mels-mountain-diner" 
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="px-4 py-2 bg-gray-700 hover:bg-gray-600 text-white rounded-lg transition-all duration-200"
+                    >
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+
               {/* Bricks Pizza Project */}
-              <div className="group bg-purple-950/40 backdrop-blur-md rounded-2xl overflow-hidden border-2 border-purple-500/30 shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 hover:-translate-y-2 hover:border-purple-400/60 animate-fade-in-up">
+              <div className="group bg-purple-950/40 backdrop-blur-md rounded-2xl overflow-hidden border-2 border-purple-500/30 shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 hover:-translate-y-2 hover:border-purple-400/60 animate-fade-in-up animation-delay-600">
                 <div className="h-2 bg-gradient-to-r from-orange-500 via-red-500 to-pink-500 shadow-glow-orange"></div>
                 <div className="p-6">
                   <h3 className="text-2xl font-bold text-white mb-3">
@@ -222,78 +300,8 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Sweet Delights Bakery */}
-              <div className="group bg-purple-950/40 backdrop-blur-md rounded-2xl overflow-hidden border-2 border-purple-500/30 shadow-2xl hover:shadow-pink-500/50 transition-all duration-300 hover:-translate-y-2 hover:border-pink-400/60 animate-fade-in-up animation-delay-200">
-                <div className="h-2 bg-gradient-to-r from-pink-500 via-rose-500 to-purple-500 shadow-glow-pink"></div>
-                <div className="p-6">
-                  <h3 className="text-2xl font-bold text-white mb-3">
-                    Sweet Delights Bakery
-                  </h3>
-                  <p className="text-cyan-100 mb-4 leading-relaxed">
-                    Full-stack e-commerce platform for custom cakes and desserts with online ordering and payment processing.
-                  </p>
-                  <div className="flex flex-wrap gap-2 mb-6">
-                    <span className="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/20 text-blue-300 border border-blue-400/30">Next.js</span>
-                    <span className="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/20 text-blue-300 border border-blue-400/30">TypeScript</span>
-                    <span className="px-3 py-1 text-xs font-semibold rounded-full bg-purple-500/20 text-purple-300 border border-purple-400/30">Prisma</span>
-                    <span className="px-3 py-1 text-xs font-semibold rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-400/30">PostgreSQL</span>
-                    <span className="px-3 py-1 text-xs font-semibold rounded-full bg-cyan-500/20 text-cyan-300 border border-cyan-400/30">Tailwind</span>
-                  </div>
-                  <div className="flex gap-3">
-                    <Link
-                      href="/projects/sweet-delights"
-                      className="flex-1 text-center px-4 py-2 bg-gradient-to-r from-pink-600 to-purple-600 text-white rounded-lg hover:from-pink-500 hover:to-purple-500 transition-all font-semibold text-sm shadow-lg shadow-pink-500/50"
-                    >
-                      Case Study
-                    </Link>
-                    <a
-                      href="https://github.com/clfarr"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex-1 text-center px-4 py-2 bg-purple-600/50 text-purple-100 rounded-lg hover:bg-purple-500/50 transition-all font-semibold text-sm border border-purple-400/30"
-                    >
-                      GitHub
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              {/* Rabbit Breeding Manager */}
-              <div className="group bg-purple-950/40 backdrop-blur-md rounded-2xl overflow-hidden border-2 border-purple-500/30 shadow-2xl hover:shadow-green-500/50 transition-all duration-300 hover:-translate-y-2 hover:border-green-400/60 animate-fade-in-up animation-delay-400">
-                <div className="h-2 bg-gradient-to-r from-green-500 via-emerald-500 to-teal-500 shadow-glow-green"></div>
-                <div className="p-6">
-                  <h3 className="text-2xl font-bold text-white mb-3">
-                    Rabbit Breeding Manager
-                  </h3>
-                  <p className="text-cyan-100 mb-4 leading-relaxed">
-                    Farm management application for tracking rabbit breeding, health records, and genealogy with database integration.
-                  </p>
-                  <div className="flex flex-wrap gap-2 mb-6">
-                    <span className="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/20 text-blue-300 border border-blue-400/30">React</span>
-                    <span className="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/20 text-blue-300 border border-blue-400/30">TypeScript</span>
-                    <span className="px-3 py-1 text-xs font-semibold rounded-full bg-green-500/20 text-green-300 border border-green-400/30">Database</span>
-                  </div>
-                  <div className="flex gap-3">
-                    <Link
-                      href="/projects/rabbit-manager"
-                      className="flex-1 text-center px-4 py-2 bg-gradient-to-r from-green-500 to-teal-500 text-white rounded-lg hover:from-green-400 hover:to-teal-400 transition-all font-semibold text-sm shadow-lg shadow-green-500/50"
-                    >
-                      Case Study
-                    </Link>
-                    <a
-                      href="https://github.com/clfarr"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex-1 text-center px-4 py-2 bg-purple-600/50 text-purple-100 rounded-lg hover:bg-purple-500/50 transition-all font-semibold text-sm border border-purple-400/30"
-                    >
-                      GitHub
-                    </a>
-                  </div>
-                </div>
-              </div>
-
               {/* Moon House */}
-              <div className="group bg-purple-950/40 backdrop-blur-md rounded-2xl overflow-hidden border-2 border-purple-500/30 shadow-2xl hover:shadow-teal-500/50 transition-all duration-300 hover:-translate-y-2 hover:border-teal-400/60 animate-fade-in-up animation-delay-600">
+              <div className="group bg-purple-950/40 backdrop-blur-md rounded-2xl overflow-hidden border-2 border-purple-500/30 shadow-2xl hover:shadow-teal-500/50 transition-all duration-300 hover:-translate-y-2 hover:border-teal-400/60 animate-fade-in-up">
                 <div className="h-2 bg-gradient-to-r from-teal-500 via-cyan-500 to-blue-500 shadow-glow-teal"></div>
                 <div className="p-6">
                   <h3 className="text-2xl font-bold text-white mb-3">
@@ -330,33 +338,30 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Redwood Creek Reserve */}
-              <div className="group bg-purple-950/40 backdrop-blur-md rounded-2xl overflow-hidden border-2 border-purple-500/30 shadow-2xl hover:shadow-emerald-500/50 transition-all duration-300 hover:-translate-y-2 hover:border-emerald-400/60 animate-fade-in-up animation-delay-600">
-                <div className="h-2 bg-gradient-to-r from-emerald-500 via-green-600 to-lime-500 shadow-glow-green"></div>
+              {/* Rabbit Breeding Manager */}
+              <div className="group bg-purple-950/40 backdrop-blur-md rounded-2xl overflow-hidden border-2 border-purple-500/30 shadow-2xl hover:shadow-green-500/50 transition-all duration-300 hover:-translate-y-2 hover:border-green-400/60 animate-fade-in-up animation-delay-200">
+                <div className="h-2 bg-gradient-to-r from-green-500 via-emerald-500 to-teal-500 shadow-glow-green"></div>
                 <div className="p-6">
                   <h3 className="text-2xl font-bold text-white mb-3">
-                    🌲 Redwood Creek Reserve
+                    Rabbit Breeding Manager
                   </h3>
                   <p className="text-cyan-100 mb-4 leading-relaxed">
-                    Professional cannabis cultivator website for Trinity County's Emerald Triangle, featuring strain catalog, cultivation process, and sustainable growing practices.
+                    Farm management application for tracking rabbit breeding, health records, and genealogy with database integration.
                   </p>
                   <div className="flex flex-wrap gap-2 mb-6">
-                    <span className="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/20 text-blue-300 border border-blue-400/30">Next.js</span>
+                    <span className="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/20 text-blue-300 border border-blue-400/30">React</span>
                     <span className="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/20 text-blue-300 border border-blue-400/30">TypeScript</span>
-                    <span className="px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-400/30">Sanity CMS</span>
-                    <span className="px-3 py-1 text-xs font-semibold rounded-full bg-cyan-500/20 text-cyan-300 border border-cyan-400/30">Tailwind</span>
+                    <span className="px-3 py-1 text-xs font-semibold rounded-full bg-green-500/20 text-green-300 border border-green-400/30">Database</span>
                   </div>
                   <div className="flex gap-3">
-                    <a
-                      href="https://redwood-creek-reserve-zw5t.vercel.app/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex-1 text-center px-4 py-2 bg-gradient-to-r from-emerald-500 to-green-500 text-white rounded-lg hover:from-emerald-400 hover:to-green-400 transition-all font-semibold text-sm shadow-lg shadow-emerald-500/50"
+                    <Link
+                      href="/projects/rabbit-manager"
+                      className="flex-1 text-center px-4 py-2 bg-gradient-to-r from-green-500 to-teal-500 text-white rounded-lg hover:from-green-400 hover:to-teal-400 transition-all font-semibold text-sm shadow-lg shadow-green-500/50"
                     >
-                      Live Site
-                    </a>
+                      Case Study
+                    </Link>
                     <a
-                      href="https://github.com/clfarr/redwood-creek-reserve"
+                      href="https://github.com/clfarr"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex-1 text-center px-4 py-2 bg-purple-600/50 text-purple-100 rounded-lg hover:bg-purple-500/50 transition-all font-semibold text-sm border border-purple-400/30"
@@ -366,6 +371,43 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+
+              {/* Sweet Delights Bakery */}
+              <div className="group bg-purple-950/40 backdrop-blur-md rounded-2xl overflow-hidden border-2 border-purple-500/30 shadow-2xl hover:shadow-pink-500/50 transition-all duration-300 hover:-translate-y-2 hover:border-pink-400/60 animate-fade-in-up animation-delay-400">
+                <div className="h-2 bg-gradient-to-r from-pink-500 via-rose-500 to-purple-500 shadow-glow-pink"></div>
+                <div className="p-6">
+                  <h3 className="text-2xl font-bold text-white mb-3">
+                    Sweet Delights Bakery
+                  </h3>
+                  <p className="text-cyan-100 mb-4 leading-relaxed">
+                    Full-stack e-commerce platform for custom cakes and desserts with online ordering and payment processing.
+                  </p>
+                  <div className="flex flex-wrap gap-2 mb-6">
+                    <span className="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/20 text-blue-300 border border-blue-400/30">Next.js</span>
+                    <span className="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/20 text-blue-300 border border-blue-400/30">TypeScript</span>
+                    <span className="px-3 py-1 text-xs font-semibold rounded-full bg-purple-500/20 text-purple-300 border border-purple-400/30">Prisma</span>
+                    <span className="px-3 py-1 text-xs font-semibold rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-400/30">PostgreSQL</span>
+                    <span className="px-3 py-1 text-xs font-semibold rounded-full bg-cyan-500/20 text-cyan-300 border border-cyan-400/30">Tailwind</span>
+                  </div>
+                  <div className="flex gap-3">
+                    <Link
+                      href="/projects/sweet-delights"
+                      className="flex-1 text-center px-4 py-2 bg-gradient-to-r from-pink-600 to-purple-600 text-white rounded-lg hover:from-pink-500 hover:to-purple-500 transition-all font-semibold text-sm shadow-lg shadow-pink-500/50"
+                    >
+                      Case Study
+                    </Link>
+                    <a
+                      href="https://github.com/clfarr"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex-1 text-center px-4 py-2 bg-purple-600/50 text-purple-100 rounded-lg hover:bg-purple-500/50 transition-all font-semibold text-sm border border-purple-400/30"
+                    >
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
         </section>
