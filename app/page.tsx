@@ -143,8 +143,7 @@ export default function Home() {
           </div>
         </section>
 
-  Perfect! I'll rewrite the entire Featured Projects section in that order. Here's the complete code to replace that section:
-
+  
         {/* Featured Projects */}
         <section className="px-4 py-16">
           <div className="max-w-6xl mx-auto">
@@ -189,6 +188,43 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+
+                    {/* Trinity County Animal Shelter - NEW */}
+      <div className="group bg-purple-950/40 backdrop-blur-md rounded-2xl overflow-hidden border-2 border-purple-500/30 shadow-2xl hover:shadow-amber-500/50 transition-all duration-300 hover:-translate-y-2 hover:border-amber-400/60 animate-fade-in-up animation-delay-100">
+        <div className="h-2 bg-gradient-to-r from-amber-500 via-orange-500 to-yellow-500 shadow-glow-amber"></div>
+        <div className="p-6">
+          <h3 className="text-2xl font-bold text-white mb-3">
+            🐾 Trinity County Animal Shelter
+          </h3>
+          <p className="text-cyan-100 mb-4 leading-relaxed">
+            Grassroots-style website for rural animal shelter featuring comprehensive lost/found section, Petfinder integration, and donation tracking. Zero hosting cost, volunteer-maintainable.
+          </p>
+          <div className="flex flex-wrap gap-2 mb-6">
+            <span className="px-3 py-1 text-xs font-semibold rounded-full bg-orange-500/20 text-orange-300 border border-orange-400/30">HTML5</span>
+            <span className="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/20 text-blue-300 border border-blue-400/30">CSS3</span>
+            <span className="px-3 py-1 text-xs font-semibold rounded-full bg-yellow-500/20 text-yellow-300 border border-yellow-400/30">JavaScript</span>
+            <span className="px-3 py-1 text-xs font-semibold rounded-full bg-purple-500/20 text-purple-300 border border-purple-400/30">GitHub Pages</span>
+          </div>
+          <div className="flex gap-3">
+            <a
+              href="https://clfarr.github.io/animal-shelter/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-1 text-center px-4 py-2 bg-gradient-to-r from-amber-500 to-orange-500 text-white rounded-lg hover:from-amber-400 hover:to-orange-400 transition-all font-semibold text-sm shadow-lg shadow-amber-500/50"
+            >
+              Live Site
+            </a>
+            <a
+              href="https://github.com/clfarr/animal-shelter"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-1 text-center px-4 py-2 bg-purple-600/50 text-purple-100 rounded-lg hover:bg-purple-500/50 transition-all font-semibold text-sm border border-purple-400/30"
+            >
+              GitHub
+            </a>
+          </div>
+        </div>
+      </div>
 
               {/* Luna & Clover */}
               <div className="group bg-purple-950/40 backdrop-blur-md rounded-2xl overflow-hidden border-2 border-purple-500/30 shadow-2xl hover:shadow-rose-500/50 transition-all duration-300 hover:-translate-y-2 hover:border-rose-400/60 animate-fade-in-up animation-delay-200">
@@ -619,6 +655,10 @@ export default function Home() {
         .shadow-glow-pink { box-shadow: 0 0 20px rgba(236, 72, 153, 0.5); }
         .shadow-glow-green { box-shadow: 0 0 20px rgba(34, 197, 94, 0.5); }
         .shadow-glow-teal { box-shadow: 0 0 20px rgba(20, 184, 166, 0.5); }
+        .shadow-glow-amber { box-shadow: 0 0 20px rgba(245, 158, 11, 0.5); }
+        .animation-delay-100 { animation-delay: 0.1s; }
+        .animation-delay-200 { animation-delay: 0.2s; }
+        .animation-delay-400 { animation-delay: 0.4s; }
         .animation-delay-600 { animation-delay: 0.6s; }
       `}</style>
     </div>
