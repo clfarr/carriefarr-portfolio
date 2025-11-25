@@ -263,6 +263,44 @@ export default function Home() {
                 </div>
               </div>
 
+{/* Trinity Falls Farm Manager - NEW */}
+<div className="group bg-purple-950/40 backdrop-blur-md rounded-2xl overflow-hidden border-2 border-purple-500/30 shadow-2xl hover:shadow-green-500/50 transition-all duration-300 hover:-translate-y-2 hover:border-green-400/60 animate-fade-in-up animation-delay-200">
+  <div className="h-2 bg-gradient-to-r from-green-500 via-emerald-500 to-teal-500 shadow-glow-green"></div>
+  <div className="p-6">
+    <h3 className="text-2xl font-bold text-white mb-3">
+      🐰 Trinity Falls Farm Manager
+    </h3>
+    <p className="text-cyan-100 mb-4 leading-relaxed">
+      Full-stack farm management application for tracking livestock breeding, egg production, and finances. Features rabbit pedigrees with photo uploads, breeding records with kindle date calculations, egg logging by color, financial tracking with date filters, and IRS Schedule F tax report generation.
+    </p>
+    <div className="flex flex-wrap gap-2 mb-6">
+      <span className="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/20 text-blue-300 border border-blue-400/30">React</span>
+      <span className="px-3 py-1 text-xs font-semibold rounded-full bg-purple-500/20 text-purple-300 border border-purple-400/30">Vite</span>
+      <span className="px-3 py-1 text-xs font-semibold rounded-full bg-cyan-500/20 text-cyan-300 border border-cyan-400/30">Tailwind CSS</span>
+      <span className="px-3 py-1 text-xs font-semibold rounded-full bg-green-500/20 text-green-300 border border-green-400/30">Supabase</span>
+      <span className="px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-400/30">PostgreSQL</span>
+      <span className="px-3 py-1 text-xs font-semibold rounded-full bg-teal-500/20 text-teal-300 border border-teal-400/30">Storage</span>
+    </div>
+    <div className="flex gap-3">
+      <a
+        href="https://trinity-falls-farm-manager.vercel.app"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex-1 text-center px-4 py-2 bg-gradient-to-r from-green-500 to-emerald-500 text-white rounded-lg hover:from-green-400 hover:to-emerald-400 transition-all font-semibold text-sm shadow-lg shadow-green-500/50"
+      >
+        Live App
+      </a>
+      <a
+        href="https://github.com/clfarr/trinity-falls-farm-manager"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex-1 text-center px-4 py-2 bg-purple-600/50 text-purple-100 rounded-lg hover:bg-purple-500/50 transition-all font-semibold text-sm border border-purple-400/30"
+      >
+        GitHub
+      </a>
+    </div>
+  </div>
+</div>
               {/* Mel's Mountain Diner */}
               <div className="group bg-pink-950/40 backdrop-blur-md rounded-2xl overflow-hidden border border-pink-500/20 hover:border-pink-400/50 transition-all duration-300 hover:shadow-lg hover:shadow-pink-500/20 animate-fade-in-up animation-delay-400">
                 <div className="h-2 bg-gradient-to-r from-pink-500 via-red-500 to-pink-600"></div>

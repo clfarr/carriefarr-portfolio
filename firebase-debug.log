@@ -1,0 +1,39 @@
+[debug] [2025-11-20T03:05:14.791Z] ----------------------------------------------------------------------
+[debug] [2025-11-20T03:05:14.792Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2025-11-20T03:05:14.792Z] CLI Version:   14.23.0
+[debug] [2025-11-20T03:05:14.792Z] Platform:      darwin
+[debug] [2025-11-20T03:05:14.792Z] Node Version:  v22.21.0
+[debug] [2025-11-20T03:05:14.793Z] Time:          Wed Nov 19 2025 19:05:14 GMT-0800 (Pacific Standard Time)
+[debug] [2025-11-20T03:05:14.793Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-11-20T03:05:14.794Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2025-11-20T03:05:14.923Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-11-20T03:05:14.923Z] > authorizing via signed-in user (carrielouisefarr@gmail.com)
+[debug] [2025-11-20T03:05:14.923Z] [iam] checking project carrie-portfolio-2025 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2025-11-20T03:05:14.924Z] Checked if tokens are valid: false, expires at: 1763520527668
+[debug] [2025-11-20T03:05:14.924Z] Checked if tokens are valid: false, expires at: 1763520527668
+[debug] [2025-11-20T03:05:14.924Z] > refreshing access token with scopes: []
+[debug] [2025-11-20T03:05:14.924Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-20T03:05:14.924Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-20T03:05:15.113Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-20T03:05:15.114Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-20T03:05:15.128Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/carrie-portfolio-2025:testIamPermissions [none]
+[debug] [2025-11-20T03:05:15.128Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/carrie-portfolio-2025:testIamPermissions x-goog-quota-user=projects/carrie-portfolio-2025
+[debug] [2025-11-20T03:05:15.128Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/carrie-portfolio-2025:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-11-20T03:05:15.138Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2025-11-20T03:05:15.138Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2025-11-20T03:05:15.356Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/carrie-portfolio-2025:testIamPermissions 200
+[debug] [2025-11-20T03:05:15.356Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/carrie-portfolio-2025:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-11-20T03:05:15.357Z] Checked if tokens are valid: true, expires at: 1763611514114
+[debug] [2025-11-20T03:05:15.357Z] Checked if tokens are valid: true, expires at: 1763611514114
+[debug] [2025-11-20T03:05:15.358Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/carrie-portfolio-2025 [none]
+[debug] [2025-11-20T03:05:15.678Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/carrie-portfolio-2025 200
+[debug] [2025-11-20T03:05:15.678Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/carrie-portfolio-2025 {"projectId":"carrie-portfolio-2025","projectNumber":"978023827299","displayName":"carrie-portfolio-2025","name":"projects/carrie-portfolio-2025","resources":{"hostingSite":"carrie-portfolio-2025"},"state":"ACTIVE","etag":"1_b308c759-494f-477e-8b48-914e57b26632"}
+[info] 
+[info] === Deploying to 'carrie-portfolio-2025'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2025-11-20T03:05:15.685Z] Checked if tokens are valid: true, expires at: 1763611514114
+[debug] [2025-11-20T03:05:15.685Z] Checked if tokens are valid: true, expires at: 1763611514114
+[debug] [2025-11-20T03:05:15.685Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/carrie-portfolio-2025/versions [none]
+[debug] [2025-11-20T03:05:15.685Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/carrie-portfolio-2025/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
