@@ -151,7 +151,58 @@ export default function Home() {
               Featured Projects
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              
+
+              {/* Root & Ledger - Featured */}
+              <div className="group md:col-span-2 lg:col-span-3 bg-gradient-to-br from-green-950/60 to-emerald-950/40 backdrop-blur-md rounded-2xl overflow-hidden border-2 border-emerald-500/50 shadow-2xl hover:shadow-emerald-500/50 transition-all duration-300 hover:-translate-y-2 hover:border-emerald-400/80 animate-fade-in-up">
+                <div className="h-2 bg-gradient-to-r from-emerald-500 via-green-500 to-teal-500 shadow-glow-green"></div>
+                <div className="p-8 md:flex md:gap-8 items-center">
+                  <div className="md:w-1/2 mb-6 md:mb-0">
+                    <img
+                      src="/Root&LedgerScreenshot.png"
+                      alt="Root & Ledger Dashboard"
+                      className="rounded-xl border-2 border-emerald-500/30 shadow-lg"
+                    />
+                  </div>
+                  <div className="md:w-1/2">
+                    <div className="flex items-center gap-3 mb-3">
+                      <span className="px-3 py-1 text-xs font-bold rounded-full bg-emerald-500/30 text-emerald-300 border border-emerald-400/50 uppercase tracking-wide">Featured Project</span>
+                    </div>
+                    <h3 className="text-3xl font-bold text-white mb-4">
+                      🌱 Root & Ledger
+                    </h3>
+                    <p className="text-cyan-100 mb-4 leading-relaxed">
+                      Comprehensive farm management application for small-scale farmers and homesteaders. Track livestock across 10+ animal types, manage breeding programs with AI-powered genetic matching, monitor egg/milk/fiber production, and generate tax-ready Schedule F reports. Features breeding calendars, health records, and multi-tenant data isolation.
+                    </p>
+                    <div className="flex flex-wrap gap-2 mb-6">
+                      <span className="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/20 text-blue-300 border border-blue-400/30">React</span>
+                      <span className="px-3 py-1 text-xs font-semibold rounded-full bg-cyan-500/20 text-cyan-300 border border-cyan-400/30">Tailwind CSS</span>
+                      <span className="px-3 py-1 text-xs font-semibold rounded-full bg-green-500/20 text-green-300 border border-green-400/30">Supabase</span>
+                      <span className="px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-400/30">PostgreSQL</span>
+                      <span className="px-3 py-1 text-xs font-semibold rounded-full bg-teal-500/20 text-teal-300 border border-teal-400/30">Auth & RLS</span>
+                      <span className="px-3 py-1 text-xs font-semibold rounded-full bg-purple-500/20 text-purple-300 border border-purple-400/30">Vercel</span>
+                    </div>
+                    <div className="flex gap-3">
+                      <a
+                        href="https://rootandledger.org/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex-1 text-center px-6 py-3 bg-gradient-to-r from-emerald-500 to-green-500 text-white rounded-lg hover:from-emerald-400 hover:to-green-400 transition-all font-semibold shadow-lg shadow-emerald-500/50"
+                      >
+                        Live App
+                      </a>
+                      <a
+                        href="https://github.com/clfarr/root-and-ledger"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex-1 text-center px-6 py-3 bg-purple-600/50 text-purple-100 rounded-lg hover:bg-purple-500/50 transition-all font-semibold border border-purple-400/30"
+                      >
+                        GitHub
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
               {/* Redwood Creek Reserve */}
               <div className="group bg-purple-950/40 backdrop-blur-md rounded-2xl overflow-hidden border-2 border-purple-500/30 shadow-2xl hover:shadow-emerald-500/50 transition-all duration-300 hover:-translate-y-2 hover:border-emerald-400/60 animate-fade-in-up">
                 <div className="h-2 bg-gradient-to-r from-emerald-500 via-green-600 to-lime-500 shadow-glow-green"></div>
@@ -395,40 +446,6 @@ export default function Home() {
                     </a>
                     <a
                       href="https://github.com/clfarr/moon-house-website"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex-1 text-center px-4 py-2 bg-purple-600/50 text-purple-100 rounded-lg hover:bg-purple-500/50 transition-all font-semibold text-sm border border-purple-400/30"
-                    >
-                      GitHub
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              {/* Rabbit Breeding Manager */}
-              <div className="group bg-purple-950/40 backdrop-blur-md rounded-2xl overflow-hidden border-2 border-purple-500/30 shadow-2xl hover:shadow-green-500/50 transition-all duration-300 hover:-translate-y-2 hover:border-green-400/60 animate-fade-in-up animation-delay-200">
-                <div className="h-2 bg-gradient-to-r from-green-500 via-emerald-500 to-teal-500 shadow-glow-green"></div>
-                <div className="p-6">
-                  <h3 className="text-2xl font-bold text-white mb-3">
-                    Rabbit Breeding Manager
-                  </h3>
-                  <p className="text-cyan-100 mb-4 leading-relaxed">
-                    Farm management application for tracking rabbit breeding, health records, and genealogy with database integration.
-                  </p>
-                  <div className="flex flex-wrap gap-2 mb-6">
-                    <span className="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/20 text-blue-300 border border-blue-400/30">React</span>
-                    <span className="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/20 text-blue-300 border border-blue-400/30">TypeScript</span>
-                    <span className="px-3 py-1 text-xs font-semibold rounded-full bg-green-500/20 text-green-300 border border-green-400/30">Database</span>
-                  </div>
-                  <div className="flex gap-3">
-                    <Link
-                      href="/projects/rabbit-manager"
-                      className="flex-1 text-center px-4 py-2 bg-gradient-to-r from-green-500 to-teal-500 text-white rounded-lg hover:from-green-400 hover:to-teal-400 transition-all font-semibold text-sm shadow-lg shadow-green-500/50"
-                    >
-                      Case Study
-                    </Link>
-                    <a
-                      href="https://github.com/clfarr"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex-1 text-center px-4 py-2 bg-purple-600/50 text-purple-100 rounded-lg hover:bg-purple-500/50 transition-all font-semibold text-sm border border-purple-400/30"
