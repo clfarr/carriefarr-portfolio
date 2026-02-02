@@ -93,7 +93,7 @@ export default function Home() {
                 </h1>
 
                 <p className="text-xl md:text-2xl text-cyan-100 mb-8 max-w-3xl">
-                  I'm a bootcamp student passionate about{' '}
+                  I'm a front-end developer passionate about{' '}
                   <span className="font-bold text-purple-400 drop-shadow-neon">creative front-end development</span> and building{' '}
                   <span className="font-bold text-pink-400 drop-shadow-neon">beautiful user interfaces</span>.
                 </p>
@@ -135,7 +135,7 @@ export default function Home() {
                 About Me
               </h2>
               <p className="text-lg text-cyan-100 leading-relaxed">
-                I'm a bootcamp student passionate about turning creative ideas into beautiful, functional websites.
+                I'm a front-end developer passionate about turning creative ideas into beautiful, functional websites.
                 I love UI design, CSS animations, and solving real-world problems with code. When I'm not coding,
                 you'll find me exploring new design trends and building projects that matter.
               </p>
