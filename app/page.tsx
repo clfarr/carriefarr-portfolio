@@ -93,9 +93,9 @@ export default function Home() {
                 </h1>
 
                 <p className="text-xl md:text-2xl text-cyan-100 mb-8 max-w-3xl">
-                  I'm a bootcamp student passionate about{' '}
-                  <span className="font-bold text-purple-400 drop-shadow-neon">creative front-end development</span> and building{' '}
-                  <span className="font-bold text-pink-400 drop-shadow-neon">beautiful user interfaces</span>.
+                  I build{' '}
+                  <span className="font-bold text-purple-400 drop-shadow-neon">full-stack web applications</span> and{' '}
+                  <span className="font-bold text-pink-400 drop-shadow-neon">production SaaS products</span> that solve real-world problems.
                 </p>
 
                 <div className="flex flex-wrap gap-4 justify-center md:justify-start">
@@ -135,9 +135,9 @@ export default function Home() {
                 About Me
               </h2>
               <p className="text-lg text-cyan-100 leading-relaxed">
-                I'm a bootcamp student passionate about turning creative ideas into beautiful, functional websites.
-                I love UI design, CSS animations, and solving real-world problems with code. When I'm not coding,
-                you'll find me exploring new design trends and building projects that matter.
+                I'm a full-stack developer who builds production web applications and SaaS products.
+                I specialize in UI/UX design, modern front-end frameworks, and turning complex problems into elegant solutions.
+                I've shipped production apps serving real users — from farm management SaaS to e-commerce platforms and beyond.
               </p>
             </div>
           </div>
@@ -151,7 +151,47 @@ export default function Home() {
               Featured Projects
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              
+
+              {/* Root & Ledger - Farm Management SaaS */}
+              <div className="group bg-purple-950/40 backdrop-blur-md rounded-2xl overflow-hidden border-2 border-indigo-500/40 shadow-2xl shadow-indigo-900/30 hover:shadow-indigo-500/50 transition-all duration-300 hover:-translate-y-2 hover:border-indigo-400/60 animate-fade-in-up">
+                <div className="h-2 bg-gradient-to-r from-indigo-500 via-violet-500 to-purple-500 shadow-glow-indigo"></div>
+                <div className="p-6">
+                  <div className="flex items-center justify-between mb-2">
+                    <h3 className="text-2xl font-bold text-white">
+                      🌱 Root & Ledger
+                    </h3>
+                    <span className="px-2 py-1 text-xs font-bold rounded-full bg-indigo-500/30 text-indigo-200 border border-indigo-400/40">SaaS</span>
+                  </div>
+                  <p className="text-cyan-100 mb-4 leading-relaxed">
+                    Production farm management SaaS platform supporting 13 livestock types. Features advanced breeding tracking with genealogy, production monitoring, multi-user team management with role-based access, and IRS Schedule F tax reporting.
+                  </p>
+                  <div className="flex flex-wrap gap-2 mb-6">
+                    <span className="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/20 text-blue-300 border border-blue-400/30">React 18</span>
+                    <span className="px-3 py-1 text-xs font-semibold rounded-full bg-purple-500/20 text-purple-300 border border-purple-400/30">Vite</span>
+                    <span className="px-3 py-1 text-xs font-semibold rounded-full bg-cyan-500/20 text-cyan-300 border border-cyan-400/30">Tailwind CSS</span>
+                    <span className="px-3 py-1 text-xs font-semibold rounded-full bg-green-500/20 text-green-300 border border-green-400/30">Supabase</span>
+                    <span className="px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-400/30">PostgreSQL</span>
+                    <span className="px-3 py-1 text-xs font-semibold rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-400/30">Multi-Tenant</span>
+                  </div>
+                  <div className="flex gap-3">
+                    <a
+                      href="https://rootandledger.org"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex-1 text-center px-4 py-2 bg-gradient-to-r from-indigo-500 to-violet-500 text-white rounded-lg hover:from-indigo-400 hover:to-violet-400 transition-all font-semibold text-sm shadow-lg shadow-indigo-500/50"
+                    >
+                      Live App
+                    </a>
+                    <Link
+                      href="/projects/root-and-ledger"
+                      className="flex-1 text-center px-4 py-2 bg-purple-600/50 text-purple-100 rounded-lg hover:bg-purple-500/50 transition-all font-semibold text-sm border border-purple-400/30"
+                    >
+                      Case Study
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
               {/* Redwood Creek Reserve */}
               <div className="group bg-purple-950/40 backdrop-blur-md rounded-2xl overflow-hidden border-2 border-purple-500/30 shadow-2xl hover:shadow-emerald-500/50 transition-all duration-300 hover:-translate-y-2 hover:border-emerald-400/60 animate-fade-in-up">
                 <div className="h-2 bg-gradient-to-r from-emerald-500 via-green-600 to-lime-500 shadow-glow-green"></div>
@@ -496,6 +536,7 @@ export default function Home() {
                 'Prisma',
                 'PostgreSQL',
                 'Firebase',
+                'Supabase',
                 'Git & GitHub',
                 'UI/UX Design',
               ].map((skill, index) => (
@@ -687,6 +728,7 @@ export default function Home() {
         .shadow-glow-green { box-shadow: 0 0 20px rgba(34, 197, 94, 0.5); }
         .shadow-glow-teal { box-shadow: 0 0 20px rgba(20, 184, 166, 0.5); }
         .shadow-glow-amber { box-shadow: 0 0 20px rgba(245, 158, 11, 0.5); }
+        .shadow-glow-indigo { box-shadow: 0 0 20px rgba(99, 102, 241, 0.5); }
         .animation-delay-100 { animation-delay: 0.1s; }
         .animation-delay-200 { animation-delay: 0.2s; }
         .animation-delay-400 { animation-delay: 0.4s; }
